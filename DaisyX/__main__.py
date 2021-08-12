@@ -63,34 +63,32 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [𝓓𝓪𝓲𝓼𝔂 𝓧](https://telegra.ph/file/473cc17913393959e0667.jpg)
-
-I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
-
-✪ Make sure you read *INFO* Section Below ✪ 
+Hello there, I'm 𝑶𝒍𝒊𝒗𝒊𝒂
+I am an Anime themed group management bot.
+Built by weebs for weebs, I specialize in managing anime eccentric communities!
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="📢Updates Channel", url="https://t.me/ankivectorUpdates"
+            text="Olivia News", url="https://t.me/Theekshana_Official"
         ),
         InlineKeyboardButton(
-            text="👥 Support Group", url="https://t.me/AnkiSupport_Official"
+            text="Olivia Support", url="https://t.me/Theekshana_Support"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="📜Source", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"
+            text="Bot Developer", url="http://t.me/TheekshanaAssistantBot"
         ),
         InlineKeyboardButton(
-            text="❔ Help", url="http://t.me/TheAnkiVectorbot?start=help"
+            text="❔ Help", url="http://t.me/TheOliviaBot?start=help"
         ),
     ],
     [
         InlineKeyboardButton(
             text="➕ Add Anki Vector to your group ➕",
-            url="t.me/TheAnkiVectorbot?startgroup=true",
+            url="t.me/TheOliviaBot?startgroup=true",
         ),
     ],
 ]
@@ -111,7 +109,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Inuka](t.me/InukaASiTH),[Jason](t.me/imjanindu),"""
+Support them  [𝙏𝙃𝙀𝙀𝙆𝙎𝙃𝘼𝙉𝘼](t.me/ImTheekshana),[Pawan](t.me/Pawan_Theekshana),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -370,10 +368,10 @@ def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by Infinity_Bots.* "
-            f"\n\n 🔥 Join [Infinity_Bots](https://t.me/Infinity_Bots) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            text=f"* Hi again!  The name's {dispatcher.bot.first_name}  \n\nAs  You I'm a next generational group management bot developed by Infinity_Bots.* "
+            f"\n\n  Join [Mizu Updates](https://t.me/MizuUpdates) To Keep Yourself Updated About {dispatcher.bot.first_name} "
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/473cc17913393959e0667.jpg)"
+            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/e5b795c39c791059b82f8.jpg)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -408,7 +406,7 @@ def DaisyX_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [InfinityJE](https://t.me/infinityje).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [MW SONGS](https://t.me/Mw_song_grup).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -429,7 +427,7 @@ def DaisyX_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [Daisy](https://github.com/inukaasith/daisy) + [Naruto](https://github.com/imjanindu/narutorobot)."
+            f"\n\nBased on [Theekshana](https://github.com/Pawan-Theekshana) + [Pawan](https://github.com/Dofini/The-Mizu-Bot)."
             f"\n\n{dispatcher.bot.first_name}'s source code was written by InukaASiTH and Imjanindu"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
