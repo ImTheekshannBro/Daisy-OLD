@@ -72,18 +72,28 @@ I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managi
 
 buttons = [
     [
-        InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
-    ],
-    [
-        InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
+        InlineKeyboardButton(
+            text="📢Updates Channel", url="https://t.me/ankivectorUpdates"
+        ),
+        InlineKeyboardButton(
+            text="👥 Support Group", url="https://t.me/AnkiSupport_Official"
+        ),
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add Daisy to your group 💫", url="t.me/daisyXBot?startgroup=true"
+            text="📜Source", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"
+        ),
+        InlineKeyboardButton(
+            text="❔ Help", url="http://t.me/TheAnkiVectorbot?start=help"
+        ),
+    ],
+    [
+        InlineKeyboardButton(
+            text="➕ Add Anki Vector to your group ➕",
+            url="t.me/TheAnkiVectorbot?startgroup=true",
         ),
     ],
 ]
-
 
 HELP_STRINGS = f"""
 *Main Commands :* [🤖](https://telegra.ph/file/473cc17913393959e0667.jpg)
