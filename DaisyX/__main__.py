@@ -87,14 +87,14 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Anki Vector to your group ➕",
+            text="➕ Add 𝑶𝒍𝒊𝒗𝒊𝒂 to your group ➕",
             url="t.me/TheOliviaBot?startgroup=true",
         ),
     ],
 ]
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/473cc17913393959e0667.jpg)
+*Main Commands :* 
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
