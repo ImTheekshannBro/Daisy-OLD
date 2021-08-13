@@ -71,10 +71,10 @@ Built by weebs for weebs, I specialize in managing anime eccentric communities!
 buttons = [
     [
         InlineKeyboardButton(
-            text="Olivia News", url="https://t.me/Theekshana_Official"
+            text="🙋‍♀️Olivia News", url="https://t.me/Theekshana_Official"
         ),
         InlineKeyboardButton(
-            text="Olivia Support", url="https://t.me/Theekshana_Support"
+            text="👥Olivia Support", url="https://t.me/Theekshana_Support"
         ),
     ],
     [
@@ -82,7 +82,7 @@ buttons = [
             text="Bot Developer", url="http://t.me/TheekshanaAssistantBot"
         ),
         InlineKeyboardButton(
-            text="❔ Help", url="http://t.me/TheOliviaBot?start=help"
+            text=" Help", url="http://t.me/TheOliviaBot?start=help"
         ),
     ],
     [
